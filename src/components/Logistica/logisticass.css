@@ -1,0 +1,7 @@
+.bannner{
+    background-image: url("../../assets/GCO.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}

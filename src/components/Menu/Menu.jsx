@@ -5,7 +5,7 @@ export function Menu() {
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            GCO
           </a>
           <button
             class="navbar-toggler"

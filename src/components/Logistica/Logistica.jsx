@@ -1,6 +1,14 @@
 import "./logisticass.css"
+import { useState, useEffect } from "react"
 import { Registrologistica } from "../Hlogistica/Registrologistica"
 export function Logistica(){
+    // creo dos variables de estado para consumir el api
+   const [datosProvedor, setDatosProvveedor]=([])
+   const [carga, setCarga]=useState([])
+
+   useEffect(()=>{},[])
+
+    
 
     return(
 

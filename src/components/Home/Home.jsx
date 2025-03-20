@@ -1,6 +1,18 @@
 import "./Home.css"
 import { RegistroProveedor } from "../RegistroProveedor/RegistroProveedor"
+
+import { useState, useEffect } from "react"
+
+
+
+
 export function Home(){
+
+    // creo dos variables de estado para consumir el api
+    const [datosProvedor, setDatosProvveedor]=([])
+    const [carga, setCarga]=useState([])
+
+    useEffect(()=>{},[])
 
     return(
 

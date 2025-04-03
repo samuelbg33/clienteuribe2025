@@ -2,7 +2,7 @@ export async function consultarProovedores() {
 
     //1 . construir el endpoint
 
-    const URL="http://localhost/proveedor"
+    const URL="http://localhost:8000/proveedor"
     
     //2. activar la peticion a enviar
     let peticion={
@@ -10,8 +10,10 @@ export async function consultarProovedores() {
     }
 
     //3. activo el consumo de la peticion 
-    let repsuesta=await fetch(URL,peticion)
+    let respuesta=await fetch(URL,peticion)
     let proveedoresConsultados=await respuesta.json()
 
-    return prveedoresConsultados
+    console.log(proveedoresConsultados)
+
+    return proveedoresConsultados
 }
